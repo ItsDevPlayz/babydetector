@@ -36,7 +36,7 @@ function draw(){
             stroke(r,g,b);
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
 
-            if(objects[0].label=="person"){
+            if(objects[i].label=="person"){
                 document.getElementById("number_of_objects").innerHTML="baby found";
             }
             else{
